@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{ 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.btn button { 
+  font-size:30px ;
+  margin-top: 40px;
+
+ 
+}
+
+.counter{
+  font-size: 100px;
+}

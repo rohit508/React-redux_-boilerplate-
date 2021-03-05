@@ -1,0 +1,39 @@
+structure : react-redux..
+1. npm install redux
+2. npm install react-redux
+
+ folder and file structure :
+(src) =>
+1.components (folder)
+2.containers (folder)
+3.store(folder)
+
+store is main folder
+store > 
+1. action your all functions in actions file
+2. reducers
+ reducers folder > 
+1.file is reducer.js
+2.root reduce.js
+
+
+container folder : 
+import connect from react-redex
+and connect redux
+
+index file :
+import { Provider } from 'react-redux'
+import { createStore } from 'redux';
+const store = createStore(
+   reducer,
+)
+render(
+   <Provider store = {store}>
+      <App />
+   </Provider>, document.getElementById('root')
+)
+ 
+
+
+
+
